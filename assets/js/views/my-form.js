@@ -19,6 +19,8 @@ define([
       PubSub.on("tempMove", this.handleTempMove, this);
       PubSub.on("tempDrop", this.handleTempDrop, this);
       this.$build = $("#build");
+      this.build = document.getElementById("build");
+      this.buildBCR = this.build.getBoundingClientRect();
       this.renderForm = _.template(_renderForm);
       this.render();
     }
@@ -40,7 +42,7 @@ define([
     , getBottomAbove: function(eventY){
       var myFormBits = $(this.$el.find(".component"));
       var topelement = _.find(myFormBits, function(renderedSnippet) {
-        if (($(renderedSnippet).position().top + $(renderedSnippet).height()) > eventY  - 90) {
+        if (($(renderedSnippet).position().top + $(renderedSnippet).height()) > eventY  - 160) {
           return true;
         }
         else {
@@ -62,10 +64,10 @@ define([
 
     , handleTempMove: function(mouseEvent){
       $(".target").removeClass("target");
-      if(mouseEvent.pageX >= this.$build.position().left &&
-          mouseEvent.pageX < (this.$build.width() + this.$build.position().left) &&
-          mouseEvent.pageY >= this.$build.position().top &&
-          mouseEvent.pageY < (this.$build.height() + this.$build.position().top)){
+      if(mouseEvent.pageX >= this.buildBCR.left &&
+          mouseEvent.pageX < (this.$build.width() + this.buildBCR.left) &&
+          mouseEvent.pageY >= this.buildBCR.top &&
+          mouseEvent.pageY < (this.$build.height() + this.buildBCR.top)){
         $(this.getBottomAbove(mouseEvent.pageY)).addClass("target");
       } else {
         $(".target").removeClass("target");
@@ -73,10 +75,10 @@ define([
     }
 
     , handleTempDrop: function(mouseEvent, model, index){
-      if(mouseEvent.pageX >= this.$build.position().left &&
-         mouseEvent.pageX < (this.$build.width() + this.$build.position().left) &&
-         mouseEvent.pageY >= this.$build.position().top &&
-         mouseEvent.pageY < (this.$build.height() + this.$build.position().top)) {
+      if(mouseEvent.pageX >= this.buildBCR.left &&
+         mouseEvent.pageX < (this.$build.width() + this.buildBCR.left) &&
+         mouseEvent.pageY >= this.buildBCR.top &&
+         mouseEvent.pageY < (this.$build.height() + this.buildBCR.top)) {
         var index = $(".target").index();
         $(".target").removeClass("target");
         this.collection.add(model,{at: index+1});
