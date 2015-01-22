@@ -89,6 +89,10 @@ form .popover form {
   margin-right: 10px
 }
 
+.build-form-row {
+  margin-bottom: 14px;
+}
+
 .target:after{
   float:left;
   content: " ";
