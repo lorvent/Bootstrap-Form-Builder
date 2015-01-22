@@ -10,6 +10,10 @@ body {
   }
 }
 
+#formtabs {
+  margin-bottom: 10px;
+}
+
 #components {
   min-height: 500px;
 }
@@ -84,6 +88,12 @@ form .popover .control-label {
 form .popover form {
   width: 224px;
 }
+
+form .popover .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 .popover-content form .btn{
   margin-right: 10px
