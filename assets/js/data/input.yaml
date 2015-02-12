@@ -26,28 +26,16 @@
       type   : select
       value  : 
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
+          value    : input-sm
           label    : Small
           selected : false
         -
-          value    : input-medium
+          value    : input-md
           label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : input-lg
+          label    : Large
           selected : false
 -
   title  : Password Input
@@ -77,28 +65,16 @@
       type   : select
       value  : 
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
+          value    : input-sm
           label    : Small
           selected : false
         -
-          value    : input-medium
+          value    : input-md
           label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : input-lg
+          label    : Large
           selected : false
 -
   title  : Search Input
@@ -128,28 +104,16 @@
       type   : select
       value  : 
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
+          value    : input-sm
           label    : Small
           selected : false
         -
-          value    : input-medium
+          value    : input-md
           label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : input-lg
+          label    : Large
           selected : false
 -
   title  : Prepended Text
@@ -183,28 +147,16 @@
       type: select
       value:
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
+          value    : input-sm
           label    : Small
           selected : false
         -
-          value    : input-medium
+          value    : input-md
           label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : input-lg
+          label    : Large
           selected : false
 -
   title  : Appended Text
@@ -238,28 +190,16 @@
       type: select
       value:
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
+          value    : input-sm
           label    : Small
           selected : false
         -
-          value    : input-medium
+          value    : input-md
           label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : input-lg
+          label    : Large
           selected : false
 -
   title  : Prepended Checkbox
@@ -293,28 +233,16 @@
       type: select
       value:
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
+          value    : input-sm
           label    : Small
           selected : false
-        - 
-          value    : input-medium
+        -
+          value    : input-md
           label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : input-lg
+          label    : Large
           selected : false
 -
   title  : Appended Checkbox
@@ -348,28 +276,16 @@
       type: select
       value:
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
+          value    : input-sm
           label    : Small
           selected : false
-        - 
-          value    : input-medium
+        -
+          value    : input-md
           label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : input-lg
+          label    : Large
           selected : false
 -
   title: Button Drop Down
@@ -403,28 +319,16 @@
       type   : select
       value  : 
         -
-          value: input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
+          value    : input-sm
           label    : Small
           selected : false
-        - 
-          value    : input-medium
+        -
+          value    : input-md
           label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : input-lg
+          label    : Large
           selected : false
 -
   title  : Text Area
